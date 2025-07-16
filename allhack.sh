@@ -11,7 +11,7 @@ echo -e '\033[31;40;1m
     |_|  |_|  |_|      |_|  \____/ \____/|______| v4
                                                  
                     
-  Coded by 4lbH4cker
+  Coded by mastercacing10
   github: https://github.com/mastercacing10
 \033[33;4mVersion:\033[0m 4            \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m mastercacing10
 
