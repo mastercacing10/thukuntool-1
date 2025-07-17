@@ -247,7 +247,7 @@ cd Tools
 git clone https://github.com/mastercacing10/superintendfun
 mv superintendfun ddosxbibz
 cd ddosxbibz
-bash run.sh
+python3 Main.py
 
 
 else   
