@@ -24,6 +24,7 @@ echo -e '\033[31;40;1m
 \e[37m[13]\e[36m VirusCrafter                 \e[37m[14]\e[36m Info-Site
 \e[37m[15]\e[36m BadMod	                      \e[37m[16]\e[36m Facebash
 \e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m AUTO-IP-CHANGER
+\e[37m[19]\e[36m SuperintendFun
 
 '
 
@@ -32,7 +33,6 @@ echo -e '\033[31;40;1m
 read -p "Enter option number: " option
 if [[ $option == 1 || $option == 01 ]]; then
 clear
-
 echo -e "\033[47;31;5m Installing updates and requirements...\033[0m"
 sleep 5
 pkg install git -y
@@ -72,7 +72,7 @@ git clone https://github.com/zidansec/subscan
 cd subscan
 read -p "Enter a domain e.g. (example.com): " sc
 ./subscan $sc
-       
+
 elif [[ $option == 5 || $option == 05 ]]; then
 clear
 echo -e "\033[47;3;35m Installation may take some time\033[0m"
@@ -112,7 +112,6 @@ sleep 10
 echo "Wait 10 seconds"
 bash alhack.sh
 
- 
 elif [[ $option == 8 || $option == 08 ]]; then
 clear
 echo -e "\033[47;3;35m REMOVING DOWNLOADED PROGRAMS...\033[0m"
@@ -239,6 +238,17 @@ echo -e "\033[47;3;35m Go to your browser and change the proxy (sock proxy) to 1
 sleep 8
 python3 install.py
 aut
+
+elif [[ $option == 19 || $option == 019 ]]; then
+clear
+echo -e "\033[47;3;35m Installation may take some time\033[0m"
+sleep 3
+cd Tools
+git clone https://github.com/mastercacing10/superintendfun
+mv superintendfun ddosxbibz
+cd ddosxbibz
+bash run.sh
+
 
 else   
 	clear
